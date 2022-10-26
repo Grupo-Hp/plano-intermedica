@@ -7,13 +7,13 @@ export default function Nav() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <>
-            <div className="shadow-sm py-1 w-full bg-white z-50 border-b-2 border-secondary" id="home">
+            <div className="shadow-sm py-1 bg-primary w-full z-50" id="home">
                 <div className="w-10/12 mx-auto">
                     <div className="flex items-center h-20 w-full">
                         <div className="flex items-center mx-20 justify-between w-full">
                             <div className="flex">
                                 <a href="./"><Image
-                                    src="/images/Intermédica-logo.png"
+                                    src="/images/intermedica-logo.png"
                                     //layout='responsive'
                                     width={160}
                                     height={60}
@@ -24,22 +24,22 @@ export default function Nav() {
                             <div className="hidden xl:block">
                                 <div className="ml-10 flex items-baseline space-x-10 uppercase">
                                     <a href="./"
-                                        className=' font-medium hover:text-secondary cursor-pointer text-primary'
+                                        className=' font-medium hover:text-secondary cursor-pointer text-white'
                                     >
                                         inicio
                                     </a>
                                     <a href="./contato"
-                                        className=' font-medium hover:text-secondary cursor-pointer text-primary'
+                                        className=' font-medium hover:text-secondary cursor-pointer text-white'
                                     >
                                         plano individual
                                     </a>
                                     <a href="./contato"
-                                        className=' font-medium hover:text-secondary cursor-pointer text-primary'
+                                        className=' font-medium hover:text-secondary cursor-pointer text-white'
                                     >
                                         plano familiar
                                     </a>
                                     <a href="./contato"
-                                        className=' font-medium hover:text-secondary cursor-pointer text-primary'
+                                        className=' font-medium hover:text-secondary cursor-pointer text-white'
                                     >
                                         plano empresarial
                                     </a>
@@ -49,7 +49,7 @@ export default function Nav() {
                                         smooth={true}
                                         offset={50}
                                         duration={1000}
-                                        className=' font-medium hover:text-secondary cursor-pointer text-primary'
+                                        className=' font-medium hover:text-secondary cursor-pointer text-white'
                                     >
                                         preço rápido
                                     </Link>
@@ -60,7 +60,7 @@ export default function Nav() {
                             <button
                                 onClick={() => setIsOpen(!isOpen)}
                                 type="button"
-                                className="inline-flex items-center justify-center p-2 rounded-md text-primary focus:ring-offset-2"
+                                className="inline-flex items-center justify-center p-2 rounded-md text-white focus:ring-offset-2"
                                 aria-controls="mobile-menu"
                                 aria-expanded="false"
                             >
@@ -113,10 +113,10 @@ export default function Nav() {
                     leaveTo="opacity-0 scale-95"
                 >
                     {(ref) => (
-                        <div className="md:hidden uppercase bg-primary" id="mobile-menu">
+                        <div className="md:hidden uppercase bg-secondary" id="mobile-menu">
                             <div
                                 ref={ref}
-                                className="bg-primary-10 pt-2 pb-3 space-y-1"
+                                className="bg-secondary pt-2 pb-3 space-y-1"
                             >
                                 <Link
 
@@ -124,7 +124,7 @@ export default function Nav() {
                                     smooth={true}
                                     offset={50}
                                     duration={1000}
-                                    className=" cursor-pointer hover:bg-secondary text-white block px-3 py-2 text-base font-medium"
+                                    className=" cursor-pointer hover:bg-primary text-white block px-3 py-2 text-base font-medium"
                                 >
                                     inicio
                                 </Link>
@@ -134,7 +134,7 @@ export default function Nav() {
                                     smooth={true}
                                     offset={50}
                                     duration={1000}
-                                    className=" cursor-pointer hover:bg-secondary text-white block px-3 py-2 text-base font-medium"
+                                    className=" cursor-pointer hover:bg-primary text-white block px-3 py-2 text-base font-medium"
                                 >
                                     plano individual
                                 </Link>
@@ -144,7 +144,7 @@ export default function Nav() {
                                     smooth={true}
                                     offset={50}
                                     duration={1000}
-                                    className=" cursor-pointer hover:bg-secondary text-white block px-3 py-2 text-base font-medium"
+                                    className=" cursor-pointer hover:bg-primary text-white block px-3 py-2 text-base font-medium"
                                 >
                                     plano familiar
                                 </Link>
@@ -154,7 +154,7 @@ export default function Nav() {
                                     smooth={true}
                                     offset={50}
                                     duration={1000}
-                                    className=" cursor-pointer hover:bg-secondary text-white block px-3 py-2 text-base font-medium"
+                                    className=" cursor-pointer hover:bg-primary text-white block px-3 py-2 text-base font-medium"
                                 >
                                     plano empresarial
                                 </Link>
@@ -164,7 +164,7 @@ export default function Nav() {
                                     smooth={true}
                                     offset={50}
                                     duration={1000}
-                                    className=" cursor-pointer hover:bg-secondary text-white block px-3 py-2 text-base font-medium"
+                                    className=" cursor-pointer hover:bg-primary text-white block px-3 py-2 text-base font-medium"
                                 >
                                     preço rápido
                                 </Link>
