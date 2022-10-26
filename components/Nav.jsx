@@ -7,7 +7,7 @@ export default function Nav() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <>
-            <div className="shadow-sm py-1 bg-primary w-full z-50" id="home">
+            <div className="py-1 w-full z-50" id="home">
                 <div className="w-10/12 mx-auto">
                     <div className="flex items-center h-20 w-full">
                         <div className="flex items-center mx-20 justify-between w-full">

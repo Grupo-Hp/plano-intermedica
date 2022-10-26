@@ -1,10 +1,12 @@
 import { Link } from "react-scroll";
 import { FiPhone } from "react-icons/fi";
+import Nav from '../components/Nav'
 
 export default function Header() {
     return (
-        <div className="contatoImage2">
-            <div className="contatoImage1 sm:h-[80vh] flex items-center">
+        <div className="contatoImage2 ">
+            <Nav />
+            <div className="sm:h-[80vh] flex items-center">
                 <div className="grid grid-cols-2 w-10/12 mx-auto">
                     <div className="col-span-2 xl:col-span-1 text-white rgba-10 p-5 rounded-xl lg:mb-12 lg:mt-0 my-16">
                         <h3 className="text-6xl font-light mb-5">Reduza o valor do seu plano de saúde</h3>
