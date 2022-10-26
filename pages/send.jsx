@@ -8,7 +8,7 @@ export default function SendPage() {
 
     return (
         <Page title="Mensagem enviada!" description="Mensagem enviada com sucesso!" path="/">
-            <Nav />
+            <Nav bg='bg-primary'/>
             <header className='bg-primary h-[90vh] flex items-center'>
                 <div className="mx-auto w-8/12 text-white text-center">
                     <BiMailSend className='mx-auto text-9xl' />
