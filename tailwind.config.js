@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#15578e',
-        secondary: '#0d9fe3',
-        redIntermédica: '#bb3333'
+        primary: '#ff9500',
+        secondary: '#555557',
+        apoio: '#ca8414'
       },
       fontSize: {
         super: '12rem'
