@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         primary: '#15578e',
         secondary: '#0d9fe3',
-        redAssim: '#bb3333'
+        redIntermédica: '#bb3333'
       },
       fontSize: {
         super: '12rem'

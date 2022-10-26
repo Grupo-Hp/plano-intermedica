@@ -13,7 +13,7 @@ import Header from '../components/Header'
 
 export default function Home() {
   return(
-    <Page title="Plano de Saúde Assim Rio" description="Todos os planos de saúde Assim e simulador de planos de saúde online" path="/">
+    <Page title="Plano de Saúde Intermédica Rio" description="Todos os planos de saúde Intermédica e simulador de planos de saúde online" path="/">
       <Nav />
       <Header />
       <Info4 />

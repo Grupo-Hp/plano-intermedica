@@ -16,7 +16,7 @@ export default function Info1() {
                 </div>
                 <div className="col-span-2 lg:col-span-1 w-3/4 mx-auto text-center py-16">
 
-                    <p className="uppercase border-b-4 text-secondary pb-2 text-lg border-primary text-center lg:text-left">simulador de planos Assim saúde rio</p>
+                    <p className="uppercase border-b-4 text-secondary pb-2 text-lg border-primary text-center lg:text-left">simulador de planos Intermédica saúde rio</p>
                     <h1 className="text-3xl mt-10 font-light lg:text-left text-primary">Planos a partir de</h1>
 
                     <div className="text-primary font-bold text-center">
@@ -25,7 +25,7 @@ export default function Info1() {
                     </div>
 
                     <p className="text-3xl font-light lg:text-center mb-5 lg:pr-3">Reduza o valor do seu plano em até 40%*</p>
-                    <p className="text-gray-600 text-sm text-center">*Valores para o plano de saúde na linha empresarial Assim.</p>
+                    <p className="text-gray-600 text-sm text-center">*Valores para o plano de saúde na linha empresarial Intermédica.</p>
                     <p className="text-gray-600 text-sm text-center">De 0 à 18 Anos para o Rio de Janeiro</p>
 
                     <div className="mt-10">
