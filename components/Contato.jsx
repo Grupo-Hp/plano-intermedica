@@ -56,7 +56,7 @@ export default function Contato(props) {
     const { register, handleSubmit, formState: { errors } } = useForm({
         resolver: yupResolver(shape),
         defaultValues: {
-            empresa: 'Intermédica Saúde',
+            empresa: 'Intermédica',
             imagem: 'Hpcap',
             site: 'https://www.hpcap.com.br/',
             contact: 'planointermedicario',
